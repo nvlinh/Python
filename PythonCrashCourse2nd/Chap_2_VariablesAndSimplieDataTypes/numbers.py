@@ -47,4 +47,4 @@ print(MAX_CONNECTION)
 MAX_CONNECTION = 500
 print(MAX_CONNECTION) #result = 500; 
 #Python doesn't build-in constant type. It use all capital letter to indicate a variable as constant and you remember not change value of it.
-
+	
