@@ -65,6 +65,30 @@ print('\n3.4 List comprehensions\n')
 squares = [value**2 for value in range(1,11)]
 print(squares)
 
+#4 Working with part of a list
+print('\n4 Working with part of a list:\n')
+# 4.1 Slicing a List
+numbers = ['One', 'Two', 'Three', 'Four', 'Five', 'Six']
+print(numbers[0:3])
+print(numbers[1:4])
+print(numbers[:4])
+print(numbers[2:])
+print(numbers[-3:])
+print(numbers[:-3])
 
+# 4.2 Looping through a slice
+print('4.2 Looping through a slice:\n')
+players = ['linh', 'tam', 'tinh', 'tien']
+print('Here are the first three player on my team')
+for player in players[:3]:
+	print(player)
 
+# 4.3 Copying a List
+print(' 4.3 Copying a List:\n')
+my_foods = ['rice', 'fish', 'meat', 'egg']
+my_wife_foods = my_foods[:] 
+my_foods.append('coffee')
+my_wife_foods.append('pizza')
+print(f'My foods : {my_foods}')
+print(f'My wife foods {my_wife_foods}')
 
