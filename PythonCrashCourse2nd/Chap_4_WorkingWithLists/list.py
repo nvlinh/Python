@@ -92,3 +92,26 @@ my_wife_foods.append('pizza')
 print(f'My foods : {my_foods}')
 print(f'My wife foods {my_wife_foods}')
 
+# 5 Tuples
+print('5. Tuples\n')
+# An immutable list is called tuple
+#5.1 Defining a Tuple
+print('5.1 Defining a Tuple\n')
+firstTuple = (1,2,3)
+print(firstTuple[0])
+#firstTuple[1] =2 #TypeError: 'tuple' object does not support item assignment
+#defining one element
+secondTuple = (4,)
+for item in secondTuple:
+	print(item)
+# Writing over a Tuple
+firstTuple = (4,5,6,7)
+
+# 6. Styling your code
+# A bit about PEP8 : indentation, line length, blank line
+# https://www.python.org/dev/peps/pep-0008/ 
+
+
+
+
+
