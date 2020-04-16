@@ -5,9 +5,9 @@
 2*3
 3/2
 # multiplication 
-3 ** 2 # result = 6
+3 ** 2 # result = 9
 print(3**2)
-3 ** 3 # result = 9
+3 ** 3 # result = 27
 print(3**3)
 # multiple operation
 (2+ 3)*4
