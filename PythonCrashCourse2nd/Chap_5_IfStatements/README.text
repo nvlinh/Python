@@ -1,0 +1,9 @@
+In this chapter you will learn how to write conditional tests, which always
+evaluate to True or False. You will learn to write simple if statements, if-else
+chains, and if-elif-else chains. You began using these structures to identify
+particular conditions you needed to test and to know when those conditions
+have been met in your programs. You will learn to handle certain items in a
+list differently than all other items while continuing to utilize the efficiency
+of a for loop. You also revisited Python’s style recommendations to ensure
+that your increasingly complex programs are still relatively easy to read and
+understand.
