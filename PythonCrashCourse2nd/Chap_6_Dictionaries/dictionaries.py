@@ -118,13 +118,13 @@ favorite_languages = {
     'hao': ['python', 'php'],
     'loc': ['c']
 }
-for name in favorite_languages.keys():
-    print(f"{name}'s favorite languages :")
-    if len(favorite_languages.get(name)) > 1:
-        for language in favorite_languages.get(name):
+for name, languages in favorite_languages.items():
+    print(f"{name}'s favorite languages: ")
+    if len(languages) > 1:
+        for language in languages:
             print(f'\t-{language}')
     else:
-        print(f'\t-{favorite_languages.get(name)}')
+        print(f'\t-{language}')
 
 # 3.3 A dictionary in a dictionary
 users = {
@@ -149,4 +149,3 @@ for user_name, user_info in users.items():
     full_name = f"{user_info['first'].title()} {user_info['last'].title()}"
     print(f"\t{full_name}")
     print(f"\t{user_info['address'].title()}")
-

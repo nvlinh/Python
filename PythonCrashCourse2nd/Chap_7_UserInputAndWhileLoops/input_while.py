@@ -17,14 +17,14 @@ number = 1
 while number <= 5:
     print(number)
     number += 1
-# Using input letter or flag to quit Using break to exit loop Using continue
+# Using input letter or flag to quit ,Using break to exit loop, Using continue
 # in a loop Using while loop with lists and dictionaries
 
 # Note: A for loop is effective for looping through a list,
 # but you shouldn’t modify  a list inside a for loop because
 #  Python will have trouble keeping track of the items in the list.
-# To modify a list as you work through it, use a while
-# loop.  Using while loo'ps with lists and dictionaries allows you to collect,
+# To modify a list as you work through it, use a while loop.
+# Using while loop with lists and dictionaries allows you to collect,
 # store, and  organize lots of input to examine and report on later.
 
 # Moving items from one list to another
