@@ -1,0 +1,6 @@
+Windows systems use a backslash (\) instead of a forward slash (/) when displaying
+file paths, but you can still use forward slashes in your code.
+
+* Relative paths and absolute file path:
+1. Relative paths: same folder with file .py ex 'text_files/linh_note.txt'
+2. Absolute file path: file_path = '/home/ehmatthes/other_files/text_files/filename.txt'

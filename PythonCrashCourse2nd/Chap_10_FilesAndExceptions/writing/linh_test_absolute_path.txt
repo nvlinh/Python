@@ -1,0 +1,1 @@
+2. Absolute file path: file_path = '/home/ehmatthes/other_files/text_files/filename.txt'
