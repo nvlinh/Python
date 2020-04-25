@@ -1,0 +1,3 @@
+[submodule "DjangoRestFramwork"]
+	path = DjangoRestFramwork
+	url = https://github.com/nvlinh/DjangoRestFramwork.git
